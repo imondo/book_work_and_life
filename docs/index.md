@@ -8,6 +8,6 @@ import { useRouter } from 'vitepress'
 
 onMounted(() => {
   const router = useRouter()
-  router.go('/preface/index')
+  router.go('/book_work_and_life/preface/index')
 })
 </script>
