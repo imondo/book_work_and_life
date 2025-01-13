@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "work and life",
   description: "记录自己工作与生活",
+  base: '/book_work_and_life/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
