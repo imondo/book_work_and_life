@@ -41,6 +41,10 @@ jobs:
         with:
           node-version: 20.11.1
           cache: npm # 或 pnpm / yarn
+      - name: Clean install files
+        run: |
+          rm -rf node_modules
+          rm -rf package-lock.json
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
